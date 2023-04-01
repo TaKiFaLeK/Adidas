@@ -103,7 +103,7 @@ nav ul li a:hover{
         align-items: center;
     }
     .content .img img {
-        width: 330px;
+        width: 230px;
         align-items: center;
         display: flex;
         right: 90px;
@@ -111,12 +111,18 @@ nav ul li a:hover{
     }
     .content .text {
         width: 80%;
-        top: -80px;
+        top: -60px;
         position: relative;
         }
         nav {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .content .img {
+            width: 30%;
+        }
+        nav ul li a {
+            font-size: 18px;
         }
     }
